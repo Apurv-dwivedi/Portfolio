@@ -18,7 +18,7 @@ body{
     display: grid;
     max-width: 1200px;
     grid-template-columns: 350px 1fr;
-    gap: 40px;
+    gap: 60px;
     margin: auto;
     padding-top:40px ;
 }
@@ -293,6 +293,7 @@ left: 5px;
 .project:hover{
     transform: translateY(-5px);
     box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
+    transform :scale(1.55) ;
 }
 
 .card{
@@ -326,15 +327,16 @@ left: 5px;
 }
 
 #Ceritifactes .Certificate img {
-    width: 90%;
-    height: 300px;
+    
+    width: 100%;
+    height: 230px;
     object-fit: cover;
     border-radius: 10px;
-    border: 2px solid #ddd;
+    border: 2px solid #ffffff;
     transition: transform 0.3s ease;
     cursor: pointer;
 }
 
 #Ceritifactes .Certificate img:hover {
-    transform: scale(1.05);
+    transform: scale(3.05);
 }
