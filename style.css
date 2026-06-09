@@ -6,11 +6,10 @@
 }
 
 body{
-   background-color: #1e1e1e;
+   background-color: #1d1919;
    font-family: sans-serif;
    color: #a0a0a0;
    line-height: 1.6;
-   
 }
 
 
@@ -172,6 +171,8 @@ nav a:hover{
 
 #about{
     margin-bottom: 40px;
+    font-weight: bold;
+    font-size: large;
 }
 
 /* Skills sectiom */
@@ -240,6 +241,8 @@ nav a:hover{
     margin-bottom: 30px;
     padding-left: 25px;
     position: relative;
+    font-weight: bold;
+    font-size: large;
 }
 
 .goal{
@@ -324,6 +327,7 @@ left: 5px;
     gap: 20px;
     max-width: 1000px;
     margin: auto;
+    
 }
 
 #certificates .Certificate img {
