@@ -171,7 +171,7 @@ nav a:hover{
 
 #about{
     margin-bottom: 40px;
-    font-weight: bold;
+    font-weight: bolder;
     font-size: large;
 }
 
@@ -228,7 +228,7 @@ nav a:hover{
 }
 
 .college{
-    font-style: italic;
+    font-style:italic;
     color: #a0a0a0;
     margin-bottom: 10px;
 }
@@ -343,4 +343,71 @@ left: 5px;
 
 #certificates .Certificate img:hover {
     transform: scale(2.05);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Skills Grid */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+  margin-top: 20px;
+}
+
+/* Boxy Skill Card */
+.items {
+  background-color: #1e1e1e;
+  border: 1px solid #333333;
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-height: 110px;
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.items:hover {
+  transform: translateY(-3px);
+  border-color: #555555;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+.items img {
+  width: 36px;
+  height: 36px;
+  margin-bottom: 14px;
+  object-fit: contain;
+}
+
+.items h3 {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #e0e0e0;
+  margin: 0;
+}
+
+/* Utility class to make dark SVGs visible on dark background */
+.invert-icon {
+  filter: invert(1);
 }
